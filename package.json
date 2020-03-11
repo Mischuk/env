@@ -28,11 +28,9 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "styles/*.scss": [
-        "prettier --write",
-        "git add"
-      ]
-    }
+    "styles/*.scss": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
