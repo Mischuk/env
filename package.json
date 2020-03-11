@@ -1,0 +1,25 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "description": "env",
+  "main": "index.js",
+  "scripts": {
+    "format:css": "prettier --write \"styles/*.scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mischuk/env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mischuk/env/issues"
+  },
+  "homepage": "https://github.com/Mischuk/env#readme",
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1"
+  }
+}
